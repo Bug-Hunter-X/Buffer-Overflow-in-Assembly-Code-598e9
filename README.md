@@ -1,0 +1,1 @@
+This repository demonstrates a potential buffer overflow vulnerability in assembly code and its solution. The bug involves accessing memory outside the bounds of an allocated array using the instruction `mov eax, [ebx+ecx*4]`.  The solution involves adding bounds checking to prevent the access of out-of-bounds memory locations.
